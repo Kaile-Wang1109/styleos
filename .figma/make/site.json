@@ -1,0 +1,10 @@
+{
+  "description": "This app helps users manage their wardrobe and generate personalized outfit suggestions using AI, making daily dressing simple and efficient.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
