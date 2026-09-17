@@ -1,7 +1,8 @@
 {
-  "description": "This app helps users manage their wardrobe and generate personalized outfit suggestions using AI, making daily dressing simple and efficient.",
+  "title": "StyleOS · AI Personal Wardrobe",
+  "description": "An AI-powered personal wardrobe and outfit management experience designed by Kaile Wang.",
   "robots": {
-    "index": false
+    "index": true
   },
   "accessibility": {
     "addBypassLinks": false,
