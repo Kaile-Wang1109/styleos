@@ -46,8 +46,10 @@ body {
   }
 
   .app-shell {
-    width: 390px !important;
-    height: min(844px, calc(100dvh - 40px)) !important;
+    /* iPhone 16 Pro viewport: 402 × 874 CSS px, plus a 10 px device frame. */
+    width: auto !important;
+    height: min(894px, calc(100dvh - 32px)) !important;
+    aspect-ratio: 422 / 894;
     border: 10px solid #171717;
     border-radius: 54px;
     box-shadow: 0 34px 90px rgba(20,20,20,.3), 0 0 0 2px #4a4a4a;
