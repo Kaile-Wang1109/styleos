@@ -151,9 +151,10 @@ export default function App() {
 
   return (
     <div
-      className="relative overflow-hidden bg-[#F7F7F7]"
-      style={{ width: '100%', height: '100dvh' }}
+      className="app-shell relative overflow-hidden bg-[#F7F7F7]"
+      style={{ width: '100%', height: '100%' }}
     >
+      <div className="iphone-island" aria-hidden="true" />
       {/* Tab pages — safe area top + bottom nav height */}
       <div
         className="absolute inset-0 overflow-y-auto scrollbar-hide"

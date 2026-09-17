@@ -254,7 +254,7 @@ function FilterSheet({ allStyles, allColors, filterStyles, filterColors, filterS
   )
 
   return (
-    <div className="fixed inset-0 flex flex-col" style={{ zIndex: 70, overflow: 'hidden' }}>
+    <div className="absolute inset-0 flex flex-col" style={{ zIndex: 70, overflow: 'hidden' }}>
       <div className="absolute inset-0" onClick={onClose} style={{ background: 'rgba(40,40,40,0.34)', backdropFilter: 'blur(12px)', WebkitBackdropFilter: 'blur(12px)' }} />
       <div
         className="absolute bottom-0 inset-x-0 animate-slide-up"
